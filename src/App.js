@@ -4,13 +4,12 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 
 // @ own
-import './App.css';
+import './App.scss';
 
 const App = () => {
   const theme = createMuiTheme({
     typography: {
-      fontFamily: 'Quicksand, sans-serif',
-      fontSize: 16,
+      fontFamily: 'Pacifico, cursive',
     },
   });
 
