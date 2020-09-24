@@ -1,0 +1,17 @@
+.completed-todos {
+  padding-top: 16px;
+  border-top: 1px solid #e3e3e3;
+
+  &__header {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+  &__expand {
+    transform: rotate(0deg);
+  }
+  &__expand-open {
+    transform: rotate(180deg);
+  }
+}
