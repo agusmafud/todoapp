@@ -1,5 +1,5 @@
-# todolist
-Simple todo list using React Hooks
+# Todo App
+Simple todo webapp using React.
 
 ## Development stack
 - [create-react-app](https://github.com/facebook/create-react-app) as frontend build pipeline.
