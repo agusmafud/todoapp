@@ -6,13 +6,10 @@ import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 // @ components
 import TodosContainer from 'containers/TodosContainer';
 
-// @ own
-import './styles.scss';
-
 const TodoApp = () => {
   const theme = createMuiTheme({
     typography: {
-      fontFamily: 'Pacifico, cursive',
+      fontFamily: 'cursive',
     },
   });
 
