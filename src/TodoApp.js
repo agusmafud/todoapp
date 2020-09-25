@@ -4,12 +4,12 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 
 // @ components
-import TodoListContainer from 'containers/TodoListContainer';
+import TodosContainer from 'containers/TodosContainer';
 
 // @ own
-import './App.scss';
+import './styles.scss';
 
-const App = () => {
+const TodoApp = () => {
   const theme = createMuiTheme({
     typography: {
       fontFamily: 'Pacifico, cursive',
@@ -19,9 +19,9 @@ const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <TodoListContainer />
+      <TodosContainer />
     </ThemeProvider>
   );
 };
 
-export default App;
+export default TodoApp;

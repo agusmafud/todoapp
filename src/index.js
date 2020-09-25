@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import TodoApp from './TodoApp';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <App />,
+  <TodoApp />,
   // eslint-disable-next-line no-undef
   document.getElementById('root'),
 );

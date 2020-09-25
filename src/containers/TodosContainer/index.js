@@ -4,9 +4,9 @@ import { useTheme } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 // @ components
-import TodoList from 'components/views/TodoList';
+import Todos from 'components/views/Todos';
 
-const TodoListContainer = () => {
+const TodosContainer = () => {
   const theme = useTheme();
   const compact = useMediaQuery(theme.breakpoints.down('sm'));
 
@@ -52,7 +52,7 @@ const TodoListContainer = () => {
   );
 
   return (
-    <TodoList
+    <Todos
       pendingTodos={pendingTodos}
       completedTodos={completedTodos}
       addTodo={addTodo}
@@ -64,4 +64,4 @@ const TodoListContainer = () => {
   );
 };
 
-export default TodoListContainer;
+export default TodosContainer;

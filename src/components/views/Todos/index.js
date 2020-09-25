@@ -22,7 +22,7 @@ import { TodoPropTypes } from 'utils/propTypesConstants';
 // @ own
 import './styles.scss';
 
-const TodoList = ({
+const Todos = ({
   pendingTodos,
   completedTodos,
   addTodo,
@@ -102,7 +102,7 @@ const TodoList = ({
   );
 };
 
-TodoList.propTypes = {
+Todos.propTypes = {
   pendingTodos: PropTypes.arrayOf(TodoPropTypes).isRequired,
   completedTodos: PropTypes.arrayOf(TodoPropTypes).isRequired,
   addTodo: PropTypes.func.isRequired,
@@ -112,8 +112,8 @@ TodoList.propTypes = {
   compact: PropTypes.bool,
 };
 
-TodoList.defaultProps = {
+Todos.defaultProps = {
   compact: false,
 };
 
-export default TodoList;
+export default Todos;
