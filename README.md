@@ -2,6 +2,8 @@
 Simple todo webapp using React.
 
 ## Development stack
+- React for component-based and declarative architecture.
+- Reacts Hooks for building functional stateless components.
 - [create-react-app](https://github.com/facebook/create-react-app) as frontend build pipeline.
 - [Material-UI](https://material-ui.com/): React UI framework.
 - SASS + BEM as css styling solution.
@@ -10,18 +12,18 @@ Simple todo webapp using React.
 
 ## Architecture
 ```
-**todoapp**
-└── **src**
+todoapp
+└── src
     ├── TodoApp.js
-    ├── **containers**\TodosContainer
-    ├── **components** 
-    │   ├── **views**\Todos
-    │   ├── **layouts**\FullHeightCardLayout
-    │   └── **elements**
+    ├── containers\TodosContainer
+    ├── components 
+    │   ├── views\Todos
+    │   ├── layouts\FullHeightCardLayout
+    │   └── elements
     │       ├── Todo
     │       ├── NewTodoInput
     │       └── CompletedTodos
-    └── **utils**
+    └── utils
             ├── messages
             └── propTypesConstants    
 ```
