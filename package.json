@@ -1,5 +1,6 @@
 {
-  "name": "todolist",
+  "name": "todoapp",
+  "homepage": "https://agusmafud.github.io/todoapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
