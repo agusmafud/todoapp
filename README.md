@@ -25,8 +25,9 @@ todoapp
     │       ├── NewTodoInput
     │       └── CompletedTodos
     └── utils
-            ├── messages
-            └── propTypesConstants    
+    │       ├── messages
+    │       └── propTypesConstants
+    └── docs
 
 ```
 ### TodoApp.js
@@ -49,3 +50,10 @@ Simple layout component with desktop and mobile styles that renders an optional 
 
 ### components\elements
 Elements are simple components which only responsability is to render content based on their properties. They also hold the css styles and are the blocks in the BEM styles structure.
+
+### utils
+* **message:** Main file for texts and aria labels.
+* **propTypesConstants:** Main file for propTypes shapes.
+
+### docs
+Folder with build compilation running under github pages on [https://agusmafud.github.io/todoapp/](https://agusmafud.github.io/todoapp/).
