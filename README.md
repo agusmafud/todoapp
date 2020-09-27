@@ -29,7 +29,8 @@ todoapp
             └── propTypesConstants    
 
 ```
-- TodoApp.js: 
+- `TodoApp.js`: 
+
 App entrypoint. Implements Material-UI theme and calls the main and only app container.
 
 - containers:
