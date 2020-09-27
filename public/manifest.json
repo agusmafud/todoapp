@@ -1,6 +1,6 @@
 {
-  "short_name": "Todo App",
-  "name": "Simple todo webapp using React",
+  "short_name": "Todo PWA",
+  "name": "Simple todo progressive web app using React",
   "icons": [
     {
       "src": "favicon.ico",
